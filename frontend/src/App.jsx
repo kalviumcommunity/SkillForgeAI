@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Chatbot from "./pages/Chatbot";
 import About from "./pages/About";
 import Navbar from "./components/Navbar";
+import MultiShot from "./pages/Multishot";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/chatbot" element={<Chatbot />} />
+          <Route path="/multishot" element={<MultiShot />} />
           <Route path="/about" element={<About />} />
           <Route path="*" element={<Chatbot />} />
         </Routes>

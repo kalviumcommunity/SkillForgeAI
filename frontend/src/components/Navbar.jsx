@@ -6,6 +6,7 @@ export default function Navbar() {
       <h1 className="text-2xl font-bold text-[#212529]">SkillForgeAI</h1>
       <div className="space-x-6 text-[#212529] font-medium">
         <Link to="/chatbot" className="hover:underline">Chatbot</Link>
+        <Link to="/multishot" className="hover:underline">Multi-shot</Link>
         <Link to="/about" className="hover:underline">About</Link>
       </div>
     </nav>
